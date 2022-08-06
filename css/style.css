@@ -1,0 +1,29 @@
+body p h1 h2 h3 h4 h5 h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Navigation*/
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.nav a {
+    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+/*Jumbostron*/
+.jumbotron {
+    background-image: url(../images/hero-image.png) !important;
+    width: 100%;
+    height: 500px !important;
+    border-radius: 0 !important;
+
+}
+
+
