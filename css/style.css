@@ -20,9 +20,11 @@ body p h1 h2 h3 h4 h5 h6 {
 /*Jumbostron*/
 .jumbotron {
     background-image: url(../images/hero-image.png) !important;
+    background-repeat: none !important;
     width: 100%;
     height: 500px !important;
     border-radius: 0 !important;
+
 
 }
 
