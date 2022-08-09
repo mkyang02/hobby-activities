@@ -4,28 +4,69 @@ body p h1 h2 h3 h4 h5 h6 {
 }
 
 /*Navigation*/
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end !important;
-}
 
-.nav a {
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-size: cover;
+    z-index: 10;
     font-family: 'Open Sans', sans-serif !important;
     font-family: 'Raleway', sans-serif !important;
-    color: black !important;
-    text-decoration: none !important;
-}
+  }
+  
+  .customNav a {
+    color:rgb(0, 0, 0) !important;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+  /*Jumbo
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  stron*/
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
 
 /*Jumbostron*/
 .jumbotron {
-    background-image: url(../images/hero-image.png) !important;
-    background-repeat: none !important;
-    width: 100%;
-    height: 500px !important;
-    border-radius: 0 !important;
-
-
-}
-
-
+    background-image: url("../images/hero-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .jumboCopy {
+      width: 70%;
+      min-width: 500px;
+      max-width: 700px;
+      color: white;
+      text-align: center;
+    }
+    
