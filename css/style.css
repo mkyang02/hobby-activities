@@ -70,3 +70,16 @@ body p h1 h2 h3 h4 h5 h6 {
       text-align: center;
     }
     
+/*Row Content */
+.row-cards {
+    width: 80%;
+    margin: auto;
+
+}
+
+/*Footer */
+.footer {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
