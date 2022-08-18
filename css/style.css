@@ -1,37 +1,32 @@
-body p h1 h2 h3 h4 h5 h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*Navigation*/
 
-.customNav {
-    position: fixed;
-    width: 100%;
-    background: url("../images/transparency.png");
-    background-size: cover;
-    z-index: 10;
-    font-family: 'Open Sans', sans-serif !important;
-    font-family: 'Raleway', sans-serif !important;
-  }
-  
-  .customNav a {
-    color:rgb(0, 0, 0) !important;
-  }
-  
-  .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-  }
-  
-  .navbar-brand img {
-    padding-right: 15px;
-    width: 65px;
-  }
-  
-  .nav-item {
-    margin: 0px 15px;
-  }
+nav {
+  display: flex !important;
+  align-items: center !important;
+  padding: 2% 6% !important;
+}
+
+nav img {
+width: 50px;
+}
+
+.nav-links ul li {
+  padding: 8px 12px !important;
+}
+
+.nav-links ul li a {
+  color: black !important;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 12px 12px;
+}
+
   /*Jumbo
   .dropdown-menu {
     background: url("../images/transparency.png");
@@ -70,9 +65,24 @@ body p h1 h2 h3 h4 h5 h6 {
       text-align: center;
     }
     
-.content {
+.card {
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none !important;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.hobbies {
   width: 80%;
   margin:auto;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
